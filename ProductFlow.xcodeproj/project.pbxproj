@@ -15,6 +15,7 @@
 		EB6505662CB33C52006375EB /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6505652CB33C52006375EB /* CustomToolBar.swift */; };
 		EB6505682CB341D1006375EB /* CustomSegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6505672CB341D1006375EB /* CustomSegmentPicker.swift */; };
 		EB65056A2CB5C5DF006375EB /* OfferSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6505692CB5C5DF006375EB /* OfferSectionView.swift */; };
+		EB65056E2CB5C850006375EB /* ProfitableSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB65056D2CB5C850006375EB /* ProfitableSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EB6505652CB33C52006375EB /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
 		EB6505672CB341D1006375EB /* CustomSegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentPicker.swift; sourceTree = "<group>"; };
 		EB6505692CB5C5DF006375EB /* OfferSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferSectionView.swift; sourceTree = "<group>"; };
+		EB65056D2CB5C850006375EB /* ProfitableSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitableSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +263,7 @@
 				EB6505652CB33C52006375EB /* CustomToolBar.swift */,
 				EB6505672CB341D1006375EB /* CustomSegmentPicker.swift */,
 				EB6505692CB5C5DF006375EB /* OfferSectionView.swift */,
+				EB65056D2CB5C850006375EB /* ProfitableSectionView.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			files = (
 				EB6505662CB33C52006375EB /* CustomToolBar.swift in Sources */,
 				EB6505682CB341D1006375EB /* CustomSegmentPicker.swift in Sources */,
+				EB65056E2CB5C850006375EB /* ProfitableSectionView.swift in Sources */,
 				EB65053E2CB322A6006375EB /* ContentView.swift in Sources */,
 				EB6505642CB33B98006375EB /* DodoProductView.swift in Sources */,
 				EB65053C2CB322A6006375EB /* ProductFlowApp.swift in Sources */,

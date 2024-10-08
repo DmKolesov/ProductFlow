@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct ProfitableSectionView: View {
+    
+    //@Observed vm
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+           Text("Выгодно и вкусно")
+                .font(.system(size: 24, weight: .bold))
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack {
+                    Text("Выгодно и вкусно")
+                     
+                }
+            }
+        }
+        .padding(.horizontal)
+        .frame(maxWidth: .infinity,alignment: .leading)
     }
 }
 
