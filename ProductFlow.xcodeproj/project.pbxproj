@@ -11,6 +11,9 @@
 		EB65053E2CB322A6006375EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB65053D2CB322A6006375EB /* ContentView.swift */; };
 		EB6505402CB322A7006375EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB65053F2CB322A7006375EB /* Assets.xcassets */; };
 		EB6505442CB322A7006375EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6505432CB322A7006375EB /* Preview Assets.xcassets */; };
+		EB6505642CB33B98006375EB /* DodoProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6505632CB33B98006375EB /* DodoProductView.swift */; };
+		EB6505662CB33C52006375EB /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6505652CB33C52006375EB /* CustomToolBar.swift */; };
+		EB6505682CB341D1006375EB /* CustomSegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6505672CB341D1006375EB /* CustomSegmentPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		EB65053F2CB322A7006375EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6505412CB322A7006375EB /* ProductFlow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProductFlow.entitlements; sourceTree = "<group>"; };
 		EB6505432CB322A7006375EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB6505632CB33B98006375EB /* DodoProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodoProductView.swift; sourceTree = "<group>"; };
+		EB6505652CB33C52006375EB /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
+		EB6505672CB341D1006375EB /* CustomSegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,7 @@
 				EB6505502CB32325006375EB /* Repositories */,
 				EB65054F2CB32318006375EB /* Mappers */,
 				EB65054E2CB3230B006375EB /* Services */,
+				EB6505632CB33B98006375EB /* DodoProductView.swift */,
 			);
 			name = ProductListModule;
 			sourceTree = "<group>";
@@ -249,6 +256,8 @@
 		EB6505622CB32519006375EB /* Layout */ = {
 			isa = PBXGroup;
 			children = (
+				EB6505652CB33C52006375EB /* CustomToolBar.swift */,
+				EB6505672CB341D1006375EB /* CustomSegmentPicker.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -323,7 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6505662CB33C52006375EB /* CustomToolBar.swift in Sources */,
+				EB6505682CB341D1006375EB /* CustomSegmentPicker.swift in Sources */,
 				EB65053E2CB322A6006375EB /* ContentView.swift in Sources */,
+				EB6505642CB33B98006375EB /* DodoProductView.swift in Sources */,
 				EB65053C2CB322A6006375EB /* ProductFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
