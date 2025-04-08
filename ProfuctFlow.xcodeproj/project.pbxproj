@@ -11,6 +11,10 @@
 		4DCF5B882DA5984F00CE536D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF5B872DA5984F00CE536D /* SceneDelegate.swift */; };
 		4DCF5B8F2DA5985100CE536D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF5B8E2DA5985100CE536D /* Assets.xcassets */; };
 		4DCF5B922DA5985100CE536D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF5B902DA5985100CE536D /* LaunchScreen.storyboard */; };
+		EB11D87A2DA5A32100A27B73 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8792DA5A32100A27B73 /* RouterProtocol.swift */; };
+		EB11D87C2DA5A36000A27B73 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D87B2DA5A36000A27B73 /* AppRouter.swift */; };
+		EB11D87F2DA5A3CC00A27B73 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D87E2DA5A3CC00A27B73 /* Coordinator.swift */; };
+		EB11D8812DA5A40600A27B73 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8802DA5A40600A27B73 /* AppNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		4DCF5B8E2DA5985100CE536D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCF5B912DA5985100CE536D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DCF5B932DA5985100CE536D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB11D8792DA5A32100A27B73 /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		EB11D87B2DA5A36000A27B73 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		EB11D87E2DA5A3CC00A27B73 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EB11D8802DA5A40600A27B73 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +60,41 @@
 		4DCF5B842DA5984E00CE536D /* ProfuctFlow */ = {
 			isa = PBXGroup;
 			children = (
-				4DCF5B852DA5984E00CE536D /* AppDelegate.swift */,
-				4DCF5B872DA5984F00CE536D /* SceneDelegate.swift */,
+				EB11D87D2DA5A3B400A27B73 /* Coordinators */,
+				EB11D8772DA5A2CD00A27B73 /* Application */,
+				EB11D8782DA5A2F700A27B73 /* Navigation */,
 				4DCF5B8E2DA5985100CE536D /* Assets.xcassets */,
 				4DCF5B902DA5985100CE536D /* LaunchScreen.storyboard */,
 				4DCF5B932DA5985100CE536D /* Info.plist */,
 			);
 			path = ProfuctFlow;
+			sourceTree = "<group>";
+		};
+		EB11D8772DA5A2CD00A27B73 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4DCF5B852DA5984E00CE536D /* AppDelegate.swift */,
+				4DCF5B872DA5984F00CE536D /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EB11D8782DA5A2F700A27B73 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				EB11D8792DA5A32100A27B73 /* RouterProtocol.swift */,
+				EB11D87B2DA5A36000A27B73 /* AppRouter.swift */,
+				EB11D8802DA5A40600A27B73 /* AppNavigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EB11D87D2DA5A3B400A27B73 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				EB11D87E2DA5A3CC00A27B73 /* Coordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB11D87C2DA5A36000A27B73 /* AppRouter.swift in Sources */,
+				EB11D87A2DA5A32100A27B73 /* RouterProtocol.swift in Sources */,
+				EB11D87F2DA5A3CC00A27B73 /* Coordinator.swift in Sources */,
+				EB11D8812DA5A40600A27B73 /* AppNavigation.swift in Sources */,
 				4DCF5B862DA5984E00CE536D /* AppDelegate.swift in Sources */,
 				4DCF5B882DA5984F00CE536D /* SceneDelegate.swift in Sources */,
 			);
