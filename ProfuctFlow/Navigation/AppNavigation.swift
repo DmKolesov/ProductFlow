@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol AppNavigation: AnyObject {
+    func setRootCoordinator(_ coordinator: Coordinator)
+}
+
