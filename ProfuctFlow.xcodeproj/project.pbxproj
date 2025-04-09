@@ -22,6 +22,7 @@
 		EB11D88F2DA6E2E100A27B73 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D88E2DA6E2E100A27B73 /* HTTPMethod.swift */; };
 		EB11D8912DA6E35800A27B73 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8902DA6E35800A27B73 /* Endpoint.swift */; };
 		EB11D8932DA6E40100A27B73 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8922DA6E40100A27B73 /* NetworkError.swift */; };
+		EB11D8952DA6E46A00A27B73 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8942DA6E46A00A27B73 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		EB11D88E2DA6E2E100A27B73 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		EB11D8902DA6E35800A27B73 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		EB11D8922DA6E40100A27B73 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EB11D8942DA6E46A00A27B73 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				EB11D88E2DA6E2E100A27B73 /* HTTPMethod.swift */,
 				EB11D8902DA6E35800A27B73 /* Endpoint.swift */,
 				EB11D8922DA6E40100A27B73 /* NetworkError.swift */,
+				EB11D8942DA6E46A00A27B73 /* NetworkService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				EB11D88F2DA6E2E100A27B73 /* HTTPMethod.swift in Sources */,
 				EB11D87A2DA5A32100A27B73 /* RouterProtocol.swift in Sources */,
 				EB11D8832DA5A4E400A27B73 /* CoordinatorFactory.swift in Sources */,
+				EB11D8952DA6E46A00A27B73 /* NetworkService.swift in Sources */,
 				EB11D87F2DA5A3CC00A27B73 /* Coordinator.swift in Sources */,
 				EB11D8882DA5A5D400A27B73 /* ModuleBuilder.swift in Sources */,
 				EB11D8812DA5A40600A27B73 /* AppNavigation.swift in Sources */,
