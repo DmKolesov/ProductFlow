@@ -34,6 +34,7 @@
 		EB11D8AB2DA7ED9400A27B73 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8AA2DA7ED9400A27B73 /* UICollectionView+Ext.swift */; };
 		EB11D8AE2DA7EF6A00A27B73 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8AD2DA7EF6A00A27B73 /* CollectionViewDataSource.swift */; };
 		EB11D8B02DA7EFF600A27B73 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8AF2DA7EFF600A27B73 /* ImageCache.swift */; };
+		EB11D8B22DA7F02E00A27B73 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8B12DA7F02E00A27B73 /* ImagePrefetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		EB11D8AA2DA7ED9400A27B73 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 		EB11D8AD2DA7EF6A00A27B73 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
 		EB11D8AF2DA7EFF600A27B73 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		EB11D8B12DA7F02E00A27B73 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 			children = (
 				EB11D8AD2DA7EF6A00A27B73 /* CollectionViewDataSource.swift */,
 				EB11D8AF2DA7EFF600A27B73 /* ImageCache.swift */,
+				EB11D8B12DA7F02E00A27B73 /* ImagePrefetcher.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				EB11D8992DA7E4E100A27B73 /* DefaultCoordinatorFactory.swift in Sources */,
 				4DCF5B862DA5984E00CE536D /* AppDelegate.swift in Sources */,
 				EB11D8AE2DA7EF6A00A27B73 /* CollectionViewDataSource.swift in Sources */,
+				EB11D8B22DA7F02E00A27B73 /* ImagePrefetcher.swift in Sources */,
 				EB11D8932DA6E40100A27B73 /* NetworkError.swift in Sources */,
 				EB11D89C2DA7E66700A27B73 /* DTOMapper.swift in Sources */,
 				EB11D8912DA6E35800A27B73 /* Endpoint.swift in Sources */,
