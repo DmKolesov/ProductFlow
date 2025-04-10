@@ -24,6 +24,7 @@
 		EB11D8932DA6E40100A27B73 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8922DA6E40100A27B73 /* NetworkError.swift */; };
 		EB11D8952DA6E46A00A27B73 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8942DA6E46A00A27B73 /* NetworkService.swift */; };
 		EB11D8972DA6E9D700A27B73 /* NewsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8962DA6E9D700A27B73 /* NewsEndpoint.swift */; };
+		EB11D8992DA7E4E100A27B73 /* DefaultCoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8982DA7E4E100A27B73 /* DefaultCoordinatorFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		EB11D8922DA6E40100A27B73 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		EB11D8942DA6E46A00A27B73 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		EB11D8962DA6E9D700A27B73 /* NewsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsEndpoint.swift; sourceTree = "<group>"; };
+		EB11D8982DA7E4E100A27B73 /* DefaultCoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCoordinatorFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				EB11D87E2DA5A3CC00A27B73 /* Coordinator.swift */,
 				EB11D8822DA5A4E400A27B73 /* CoordinatorFactory.swift */,
 				EB11D8842DA5A54500A27B73 /* NewsCoordinator.swift */,
+				EB11D8982DA7E4E100A27B73 /* DefaultCoordinatorFactory.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				EB11D87F2DA5A3CC00A27B73 /* Coordinator.swift in Sources */,
 				EB11D8882DA5A5D400A27B73 /* ModuleBuilder.swift in Sources */,
 				EB11D8812DA5A40600A27B73 /* AppNavigation.swift in Sources */,
+				EB11D8992DA7E4E100A27B73 /* DefaultCoordinatorFactory.swift in Sources */,
 				4DCF5B862DA5984E00CE536D /* AppDelegate.swift in Sources */,
 				EB11D8932DA6E40100A27B73 /* NetworkError.swift in Sources */,
 				EB11D8912DA6E35800A27B73 /* Endpoint.swift in Sources */,
