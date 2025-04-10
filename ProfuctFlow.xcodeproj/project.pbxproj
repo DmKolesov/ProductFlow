@@ -33,6 +33,7 @@
 		EB11D8A92DA7ED5700A27B73 /* DateFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8A82DA7ED5700A27B73 /* DateFormatter+Ext.swift */; };
 		EB11D8AB2DA7ED9400A27B73 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8AA2DA7ED9400A27B73 /* UICollectionView+Ext.swift */; };
 		EB11D8AE2DA7EF6A00A27B73 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8AD2DA7EF6A00A27B73 /* CollectionViewDataSource.swift */; };
+		EB11D8B02DA7EFF600A27B73 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8AF2DA7EFF600A27B73 /* ImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		EB11D8A82DA7ED5700A27B73 /* DateFormatter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Ext.swift"; sourceTree = "<group>"; };
 		EB11D8AA2DA7ED9400A27B73 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 		EB11D8AD2DA7EF6A00A27B73 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		EB11D8AF2DA7EFF600A27B73 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				EB11D8AD2DA7EF6A00A27B73 /* CollectionViewDataSource.swift */,
+				EB11D8AF2DA7EFF600A27B73 /* ImageCache.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				EB11D8832DA5A4E400A27B73 /* CoordinatorFactory.swift in Sources */,
 				EB11D8972DA6E9D700A27B73 /* NewsEndpoint.swift in Sources */,
 				EB11D8AB2DA7ED9400A27B73 /* UICollectionView+Ext.swift in Sources */,
+				EB11D8B02DA7EFF600A27B73 /* ImageCache.swift in Sources */,
 				EB11D8A12DA7E6B200A27B73 /* NewsResponseMapper.swift in Sources */,
 				EB11D8952DA6E46A00A27B73 /* NetworkService.swift in Sources */,
 				EB11D87F2DA5A3CC00A27B73 /* Coordinator.swift in Sources */,
