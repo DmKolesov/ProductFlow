@@ -30,6 +30,8 @@
 		EB11D8A12DA7E6B200A27B73 /* NewsResponseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8A02DA7E6B200A27B73 /* NewsResponseMapper.swift */; };
 		EB11D8A42DA7E6E300A27B73 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8A32DA7E6E300A27B73 /* NewsResponse.swift */; };
 		EB11D8A62DA7E72E00A27B73 /* NewsResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8A52DA7E72E00A27B73 /* NewsResponseDTO.swift */; };
+		EB11D8A92DA7ED5700A27B73 /* DateFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8A82DA7ED5700A27B73 /* DateFormatter+Ext.swift */; };
+		EB11D8AB2DA7ED9400A27B73 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8AA2DA7ED9400A27B73 /* UICollectionView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		EB11D8A02DA7E6B200A27B73 /* NewsResponseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponseMapper.swift; sourceTree = "<group>"; };
 		EB11D8A32DA7E6E300A27B73 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
 		EB11D8A52DA7E72E00A27B73 /* NewsResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponseDTO.swift; sourceTree = "<group>"; };
+		EB11D8A82DA7ED5700A27B73 /* DateFormatter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Ext.swift"; sourceTree = "<group>"; };
+		EB11D8AA2DA7ED9400A27B73 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		4DCF5B842DA5984E00CE536D /* ProfuctFlow */ = {
 			isa = PBXGroup;
 			children = (
+				EB11D8A72DA7ED1000A27B73 /* Extensions */,
 				EB11D89A2DA7E65A00A27B73 /* Core */,
 				EB11D88A2DA6E20400A27B73 /* Network */,
 				EB11D8772DA5A2CD00A27B73 /* Application */,
@@ -198,6 +203,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		EB11D8A72DA7ED1000A27B73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB11D8A82DA7ED5700A27B73 /* DateFormatter+Ext.swift */,
+				EB11D8AA2DA7ED9400A27B73 /* UICollectionView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -277,11 +291,13 @@
 				EB11D87A2DA5A32100A27B73 /* RouterProtocol.swift in Sources */,
 				EB11D8832DA5A4E400A27B73 /* CoordinatorFactory.swift in Sources */,
 				EB11D8972DA6E9D700A27B73 /* NewsEndpoint.swift in Sources */,
+				EB11D8AB2DA7ED9400A27B73 /* UICollectionView+Ext.swift in Sources */,
 				EB11D8A12DA7E6B200A27B73 /* NewsResponseMapper.swift in Sources */,
 				EB11D8952DA6E46A00A27B73 /* NetworkService.swift in Sources */,
 				EB11D87F2DA5A3CC00A27B73 /* Coordinator.swift in Sources */,
 				EB11D89E2DA7E68200A27B73 /* NewsMapper.swift in Sources */,
 				EB11D8882DA5A5D400A27B73 /* ModuleBuilder.swift in Sources */,
+				EB11D8A92DA7ED5700A27B73 /* DateFormatter+Ext.swift in Sources */,
 				EB11D8812DA5A40600A27B73 /* AppNavigation.swift in Sources */,
 				EB11D8992DA7E4E100A27B73 /* DefaultCoordinatorFactory.swift in Sources */,
 				4DCF5B862DA5984E00CE536D /* AppDelegate.swift in Sources */,
