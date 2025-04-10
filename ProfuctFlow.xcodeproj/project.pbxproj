@@ -29,6 +29,7 @@
 		EB11D89E2DA7E68200A27B73 /* NewsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D89D2DA7E68200A27B73 /* NewsMapper.swift */; };
 		EB11D8A12DA7E6B200A27B73 /* NewsResponseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8A02DA7E6B200A27B73 /* NewsResponseMapper.swift */; };
 		EB11D8A42DA7E6E300A27B73 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8A32DA7E6E300A27B73 /* NewsResponse.swift */; };
+		EB11D8A62DA7E72E00A27B73 /* NewsResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8A52DA7E72E00A27B73 /* NewsResponseDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		EB11D89D2DA7E68200A27B73 /* NewsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsMapper.swift; sourceTree = "<group>"; };
 		EB11D8A02DA7E6B200A27B73 /* NewsResponseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponseMapper.swift; sourceTree = "<group>"; };
 		EB11D8A32DA7E6E300A27B73 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		EB11D8A52DA7E72E00A27B73 /* NewsResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponseDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				EB11D8A32DA7E6E300A27B73 /* NewsResponse.swift */,
+				EB11D8A52DA7E72E00A27B73 /* NewsResponseDTO.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB11D8A62DA7E72E00A27B73 /* NewsResponseDTO.swift in Sources */,
 				EB11D87C2DA5A36000A27B73 /* AppRouter.swift in Sources */,
 				EB11D8A42DA7E6E300A27B73 /* NewsResponse.swift in Sources */,
 				EB11D88D2DA6E23B00A27B73 /* NetworkConfiguration.swift in Sources */,
