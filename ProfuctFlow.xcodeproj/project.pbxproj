@@ -35,6 +35,7 @@
 		EB11D8AE2DA7EF6A00A27B73 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8AD2DA7EF6A00A27B73 /* CollectionViewDataSource.swift */; };
 		EB11D8B02DA7EFF600A27B73 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8AF2DA7EFF600A27B73 /* ImageCache.swift */; };
 		EB11D8B22DA7F02E00A27B73 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8B12DA7F02E00A27B73 /* ImagePrefetcher.swift */; };
+		EB11D8B42DA91CC300A27B73 /* Paginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8B32DA91CC300A27B73 /* Paginator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		EB11D8AD2DA7EF6A00A27B73 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
 		EB11D8AF2DA7EFF600A27B73 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		EB11D8B12DA7F02E00A27B73 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
+		EB11D8B32DA91CC300A27B73 /* Paginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paginator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 				EB11D8AD2DA7EF6A00A27B73 /* CollectionViewDataSource.swift */,
 				EB11D8AF2DA7EFF600A27B73 /* ImageCache.swift */,
 				EB11D8B12DA7F02E00A27B73 /* ImagePrefetcher.swift */,
+				EB11D8B32DA91CC300A27B73 /* Paginator.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				EB11D8812DA5A40600A27B73 /* AppNavigation.swift in Sources */,
 				EB11D8992DA7E4E100A27B73 /* DefaultCoordinatorFactory.swift in Sources */,
 				4DCF5B862DA5984E00CE536D /* AppDelegate.swift in Sources */,
+				EB11D8B42DA91CC300A27B73 /* Paginator.swift in Sources */,
 				EB11D8AE2DA7EF6A00A27B73 /* CollectionViewDataSource.swift in Sources */,
 				EB11D8B22DA7F02E00A27B73 /* ImagePrefetcher.swift in Sources */,
 				EB11D8932DA6E40100A27B73 /* NetworkError.swift in Sources */,
