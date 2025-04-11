@@ -38,6 +38,7 @@
 		EB11D8B42DA91CC300A27B73 /* Paginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8B32DA91CC300A27B73 /* Paginator.swift */; };
 		EB11D8B92DA920D200A27B73 /* NewsModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8B82DA920D200A27B73 /* NewsModuleBuilder.swift */; };
 		EB11D8BB2DA9250A00A27B73 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8BA2DA9250A00A27B73 /* NewsService.swift */; };
+		EB11D8BD2DA9255D00A27B73 /* NewsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8BC2DA9255D00A27B73 /* NewsRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		EB11D8B32DA91CC300A27B73 /* Paginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paginator.swift; sourceTree = "<group>"; };
 		EB11D8B82DA920D200A27B73 /* NewsModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModuleBuilder.swift; sourceTree = "<group>"; };
 		EB11D8BA2DA9250A00A27B73 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
+		EB11D8BC2DA9255D00A27B73 /* NewsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 			children = (
 				EB11D8B72DA920C400A27B73 /* Builder */,
 				EB11D8BA2DA9250A00A27B73 /* NewsService.swift */,
+				EB11D8BC2DA9255D00A27B73 /* NewsRepository.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				EB11D8AB2DA7ED9400A27B73 /* UICollectionView+Ext.swift in Sources */,
 				EB11D8B02DA7EFF600A27B73 /* ImageCache.swift in Sources */,
 				EB11D8A12DA7E6B200A27B73 /* NewsResponseMapper.swift in Sources */,
+				EB11D8BD2DA9255D00A27B73 /* NewsRepository.swift in Sources */,
 				EB11D8952DA6E46A00A27B73 /* NetworkService.swift in Sources */,
 				EB11D87F2DA5A3CC00A27B73 /* Coordinator.swift in Sources */,
 				EB11D89E2DA7E68200A27B73 /* NewsMapper.swift in Sources */,
