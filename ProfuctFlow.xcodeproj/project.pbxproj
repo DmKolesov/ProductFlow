@@ -46,6 +46,7 @@
 		EBA39AD32DAD101D00277FF5 /* NewsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39AD22DAD101D00277FF5 /* NewsCollectionView.swift */; };
 		EBA39AD82DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39AD72DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift */; };
 		EBA39ADB2DAD12BE00277FF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39ADA2DAD12BE00277FF5 /* DetailViewController.swift */; };
+		EBA39ADD2DAD145300277FF5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39ADC2DAD145300277FF5 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		EBA39AD22DAD101D00277FF5 /* NewsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionView.swift; sourceTree = "<group>"; };
 		EBA39AD72DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionLayoutProvider.swift; sourceTree = "<group>"; };
 		EBA39ADA2DAD12BE00277FF5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EBA39ADC2DAD145300277FF5 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				EB11D8822DA5A4E400A27B73 /* CoordinatorFactory.swift */,
 				EB11D8842DA5A54500A27B73 /* NewsCoordinator.swift */,
 				EB11D8982DA7E4E100A27B73 /* DefaultCoordinatorFactory.swift */,
+				EBA39ADC2DAD145300277FF5 /* AppCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				EB11D8C22DA926B600A27B73 /* NewsCellViewModel.swift in Sources */,
 				EB11D8932DA6E40100A27B73 /* NetworkError.swift in Sources */,
 				EBA39AD12DAD0F4D00277FF5 /* NewsCell.swift in Sources */,
+				EBA39ADD2DAD145300277FF5 /* AppCoordinator.swift in Sources */,
 				EB11D89C2DA7E66700A27B73 /* DTOMapper.swift in Sources */,
 				EB11D8912DA6E35800A27B73 /* Endpoint.swift in Sources */,
 				4DCF5B882DA5984F00CE536D /* SceneDelegate.swift in Sources */,
