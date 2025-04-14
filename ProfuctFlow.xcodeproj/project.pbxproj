@@ -44,6 +44,7 @@
 		EBA39ACF2DAD0E6200277FF5 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39ACE2DAD0E6200277FF5 /* NewsViewController.swift */; };
 		EBA39AD12DAD0F4D00277FF5 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39AD02DAD0F4D00277FF5 /* NewsCell.swift */; };
 		EBA39AD32DAD101D00277FF5 /* NewsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39AD22DAD101D00277FF5 /* NewsCollectionView.swift */; };
+		EBA39AD82DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39AD72DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		EBA39ACE2DAD0E6200277FF5 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		EBA39AD02DAD0F4D00277FF5 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		EBA39AD22DAD101D00277FF5 /* NewsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionView.swift; sourceTree = "<group>"; };
+		EBA39AD72DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionLayoutProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		EB11D89A2DA7E65A00A27B73 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EBA39AD42DAD11B600277FF5 /* UIComponents */,
 				EB11D8A22DA7E6C400A27B73 /* Models */,
 				EB11D89F2DA7E6A000A27B73 /* Mappers */,
 			);
@@ -296,6 +299,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		EBA39AD42DAD11B600277FF5 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				EBA39AD72DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -381,6 +392,7 @@
 				EB11D8AB2DA7ED9400A27B73 /* UICollectionView+Ext.swift in Sources */,
 				EB11D8B02DA7EFF600A27B73 /* ImageCache.swift in Sources */,
 				EB11D8A12DA7E6B200A27B73 /* NewsResponseMapper.swift in Sources */,
+				EBA39AD82DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift in Sources */,
 				EBA39ACF2DAD0E6200277FF5 /* NewsViewController.swift in Sources */,
 				EB11D8BD2DA9255D00A27B73 /* NewsRepository.swift in Sources */,
 				EB11D8952DA6E46A00A27B73 /* NetworkService.swift in Sources */,
