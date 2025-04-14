@@ -43,6 +43,7 @@
 		EB11D8C22DA926B600A27B73 /* NewsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D8C12DA926B600A27B73 /* NewsCellViewModel.swift */; };
 		EBA39ACF2DAD0E6200277FF5 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39ACE2DAD0E6200277FF5 /* NewsViewController.swift */; };
 		EBA39AD12DAD0F4D00277FF5 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39AD02DAD0F4D00277FF5 /* NewsCell.swift */; };
+		EBA39AD32DAD101D00277FF5 /* NewsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39AD22DAD101D00277FF5 /* NewsCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		EB11D8C12DA926B600A27B73 /* NewsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellViewModel.swift; sourceTree = "<group>"; };
 		EBA39ACE2DAD0E6200277FF5 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		EBA39AD02DAD0F4D00277FF5 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		EBA39AD22DAD101D00277FF5 /* NewsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +291,7 @@
 			children = (
 				EBA39ACE2DAD0E6200277FF5 /* NewsViewController.swift */,
 				EBA39AD02DAD0F4D00277FF5 /* NewsCell.swift */,
+				EBA39AD22DAD101D00277FF5 /* NewsCollectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				4DCF5B862DA5984E00CE536D /* AppDelegate.swift in Sources */,
 				EB11D8B42DA91CC300A27B73 /* Paginator.swift in Sources */,
 				EB11D8AE2DA7EF6A00A27B73 /* CollectionViewDataSource.swift in Sources */,
+				EBA39AD32DAD101D00277FF5 /* NewsCollectionView.swift in Sources */,
 				EB11D8B22DA7F02E00A27B73 /* ImagePrefetcher.swift in Sources */,
 				EB11D8C22DA926B600A27B73 /* NewsCellViewModel.swift in Sources */,
 				EB11D8932DA6E40100A27B73 /* NetworkError.swift in Sources */,
