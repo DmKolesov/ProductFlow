@@ -45,6 +45,7 @@
 		EBA39AD12DAD0F4D00277FF5 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39AD02DAD0F4D00277FF5 /* NewsCell.swift */; };
 		EBA39AD32DAD101D00277FF5 /* NewsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39AD22DAD101D00277FF5 /* NewsCollectionView.swift */; };
 		EBA39AD82DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39AD72DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift */; };
+		EBA39ADB2DAD12BE00277FF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA39ADA2DAD12BE00277FF5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		EBA39AD02DAD0F4D00277FF5 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		EBA39AD22DAD101D00277FF5 /* NewsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionView.swift; sourceTree = "<group>"; };
 		EBA39AD72DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionLayoutProvider.swift; sourceTree = "<group>"; };
+		EBA39ADA2DAD12BE00277FF5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				EB11D8B62DA920BC00A27B73 /* News */,
+				EBA39AD92DAD129400277FF5 /* Detail */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -305,6 +308,14 @@
 				EBA39AD72DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift */,
 			);
 			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		EBA39AD92DAD129400277FF5 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EBA39ADA2DAD12BE00277FF5 /* DetailViewController.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +406,7 @@
 				EBA39AD82DAD11D300277FF5 /* NewsCollectionLayoutProvider.swift in Sources */,
 				EBA39ACF2DAD0E6200277FF5 /* NewsViewController.swift in Sources */,
 				EB11D8BD2DA9255D00A27B73 /* NewsRepository.swift in Sources */,
+				EBA39ADB2DAD12BE00277FF5 /* DetailViewController.swift in Sources */,
 				EB11D8952DA6E46A00A27B73 /* NetworkService.swift in Sources */,
 				EB11D87F2DA5A3CC00A27B73 /* Coordinator.swift in Sources */,
 				EB11D89E2DA7E68200A27B73 /* NewsMapper.swift in Sources */,
